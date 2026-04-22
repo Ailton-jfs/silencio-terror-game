@@ -1,7 +1,7 @@
-🎮 ##Silêncio
+🎮 **Silêncio**
 
 
-🧠 Conceito
+🧠 **Conceito**
 
 Silêncio é um jogo de terror psicológico imersivo onde o maior inimigo do jogador é o próprio barulho.
 
@@ -15,12 +15,12 @@ Cada ação tem consequência. Passos rápidos, objetos derrubados ou decisões 
 
 O medo cresce à medida que o silêncio desaparece.
 
-🎯 Objetivo
+🎯 **Objetivo**
 
 Explorar o ambiente, encontrar pistas e escapar sem atrar a criatura sensível ao som.
 
-⚙️ Mecânicas Principais
-🔊 Sistema de Ruído
+⚙️ **Mecânicas Principais**
+🔊 **Sistema de Ruído**
 
 Uma barra dinâmica representa o nível de atenção gerado pelo jogador.
 
@@ -33,7 +33,7 @@ Colidir com o ambiente
 
 Quando o nível se torna crítico, algo começa a se aproximar.
 
-🚶 Movimento Tático
+🚶 **Movimento Tático**
 
 O jogador precisa controlar cada ação:
 
@@ -43,7 +43,7 @@ Objetos no chão podem denunciar sua posição
 
 Cada decisão impacta diretamente a sobrevivência.
 
-👂 Terror pelo Áudio
+👂 **Terror pelo Áudio**
 
 A experiência é guiada pelo som.
 
@@ -58,7 +58,7 @@ Não há jumpscares tradicionais.
 
 O medo vem da incerteza.
 
-🎨 Experiência do Jogador
+🎨 **Experiência do Jogador**
 
 Desenvolvido para ser jogado com fones de ouvido, Silêncio cria uma experiência sensorial intensa e focada na percepção auditiva.
 
@@ -67,19 +67,22 @@ O jogador é constantemente levado a:
 Pensar antes de agir
 Controlar seus movimentos
 Interpretar sons do ambiente
-🌟 Diferenciais
+
+🌟 **Diferenciais**
+
 Terror psicológico sem jumpscares
 Mecânica central baseada em som
 Alta imersão sensorial
 Experiência ideal para eventos e demonstrações
 Simples de entender, desafiador de dominar
-🎧 Experiência em Evento
+
+🎧 **Experiência em Evento**
 
 O jogo é ideal para apresentações em stand, utilizando fones de ouvido para maximizar a imersão.
 
 O contraste entre silêncio e som cria uma experiência marcante e memorável para o público.
 
-🧩 Escopo do Protótipo
+🧩 **Escopo do Protótipo**
 
 O protótipo inclui:
 
@@ -89,8 +92,8 @@ Feedback sonoro dinâmico
 Evento de perseguição baseado em ruído
 Objetivo simples de fuga
 
-⏱️ Tempo médio: 3 a 5 minutos por jogador
+⏱️ **Tempo médio: 3 a 5 minutos por jogador**
 
-🛠️ Tecnologias
+🛠️ **Tecnologias**
 Godot Engine
 GDScript
