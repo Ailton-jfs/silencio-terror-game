@@ -1,0 +1,24 @@
+[gd_scene format=3 uid="uid://dd4x1tihbufds"]
+
+[ext_resource type="Texture2D" uid="uid://csa7rgfqe7v7p" path="res://chao.png" id="1_4xfga"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_4xfga"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_paxxb"]
+
+[node name="Map" type="Node2D" unique_id=1049044830]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1115005476]
+position = Vector2(639, 358)
+scale = Vector2(0.83, 0.7)
+texture = ExtResource("1_4xfga")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=2083444700]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=470046007]
+shape = SubResource("RectangleShape2D_4xfga")
+
+[node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=1288611020]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2" unique_id=324375771]
+shape = SubResource("RectangleShape2D_paxxb")
