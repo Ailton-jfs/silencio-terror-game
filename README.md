@@ -1,4 +1,6 @@
 🎮 Silêncio
+
+
 🧠 Conceito
 
 Silêncio é um jogo de terror psicológico imersivo onde o maior inimigo do jogador é o próprio barulho.
