@@ -1,0 +1,25 @@
+[gd_scene format=3 uid="uid://cc36uwn6cty1h"]
+
+[ext_resource type="Script" uid="uid://xxrnm8xajkqg" path="res://scripts/monster.gd" id="1_uwnm8"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_uwnm8"]
+
+[node name="Monster" type="Node2D" unique_id=1684319787]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="." unique_id=1442200799]
+script = ExtResource("1_uwnm8")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=141884499]
+modulate = Color(0.06666667, 0.06666667, 0.06666667, 1)
+
+[node name="Area2D" type="Area2D" parent="." unique_id=550628824]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=152811133]
+shape = SubResource("CircleShape2D_uwnm8")
+
+[node name="Sprite2D2" type="Sprite2D" parent="." unique_id=370704562]
+modulate = Color(0.99215686, 0.3019608, 0.3019608, 1)
+position = Vector2(5, -10)
+scale = Vector2(0.2, 0.2)
+
+[connection signal="body_shape_entered" from="Area2D" to="." method="_on_area_2d_body_shape_entered"]

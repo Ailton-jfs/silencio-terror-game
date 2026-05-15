@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://et60hnmfbr4m"]
+
+[node name="Ui" type="Node2D" unique_id=189414197]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=53033502]
+
+[node name="ProgressBar" type="ProgressBar" parent="CanvasLayer" unique_id=467026796]
+offset_right = 4.0
+offset_bottom = 27.0
+theme_override_colors/font_color = Color(0.54509807, 0, 0, 1)
