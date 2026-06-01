@@ -1,4 +1,5 @@
 🎮 **Silêncio**
+
 🧠 **Conceito**
 
 Silêncio é um jogo de terror psicológico em que o jogador precisa explorar uma livraria enquanto é caçado por uma criatura misteriosa.
