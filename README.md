@@ -99,6 +99,7 @@ Condição de vitória por fuga.
 
 🛠️ **Tecnologias Utilizadas**
 Godot Engine
+
 GDScript
 
-Slogan: "O silêncio pode salvar sua vida. Mas nem sempre será suficiente."
+**Slogan:** "O silêncio pode salvar sua vida. Mas nem sempre será suficiente."
