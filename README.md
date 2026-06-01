@@ -1,99 +1,102 @@
 🎮 **Silêncio**
-
-
 🧠 **Conceito**
 
-Silêncio é um jogo de terror psicológico imersivo onde o maior inimigo do jogador é o próprio barulho.
+Silêncio é um jogo de terror psicológico em que o jogador precisa explorar uma livraria enquanto é caçado por uma criatura misteriosa.
 
-O jogador acorda em um ambiente escuro e desconhecido. Algo habita aquele lugar — mas nunca é visto diretamente.
+O principal desafio não é enfrentar o monstro, mas evitar ser encontrado. A criatura patrulha o ambiente e, ao perceber a presença do jogador, inicia uma perseguição pelos locais por onde ele passou.
 
-Existe apenas uma regra para sobreviver:
-
-Não faça barulho.
-
-Cada ação tem consequência. Passos rápidos, objetos derrubados ou decisões impulsivas aumentam o nível de ruído e atraem a entidade.
-
-O medo cresce à medida que o silêncio desaparece.
+A sobrevivência depende da exploração, da estratégia e do uso correto dos esconderijos disponíveis.
 
 🎯 **Objetivo**
 
-Explorar o ambiente, encontrar pistas e escapar sem atrar a criatura sensível ao som.
+Encontrar as duas chaves escondidas pela livraria para desbloquear a saída e escapar antes de ser capturado pela criatura.
 
 ⚙️ **Mecânicas Principais**
-🔊 **Sistema de Ruído**
+👣 **Sistema de Perseguição**
 
-Uma barra dinâmica representa o nível de atenção gerado pelo jogador.
+A criatura circula pela livraria em busca do jogador.
 
-O ruído aumenta ao:
+Quando detecta sua presença, ela inicia uma perseguição, seguindo os caminhos percorridos pelo personagem.
 
-Correr
-Derrubar objetos
-Interagir de forma brusca
-Colidir com o ambiente
+O jogador deve agir rapidamente para despistá-la e continuar sua busca pelas chaves.
 
-Quando o nível se torna crítico, algo começa a se aproximar.
+🚶 **Personagens com Características Diferentes**
 
-🚶 **Movimento Tático**
+O jogo possui dois personagens selecionáveis:
 
-O jogador precisa controlar cada ação:
+Personagem 1
 
-Movimentos lentos reduzem o risco
-Correr aumenta drasticamente o perigo
-Objetos no chão podem denunciar sua posição
+Produz mais ruído ao se movimentar.
+Tem maior chance de chamar a atenção da criatura.
 
-Cada decisão impacta diretamente a sobrevivência.
+Personagem 2
 
-👂 **Terror pelo Áudio**
+Produz menos ruído.
+Permite uma abordagem mais furtiva durante a exploração.
 
-A experiência é guiada pelo som.
+Essa diferença influencia diretamente a estratégia utilizada pelo jogador.
 
-O jogador percebe a presença da entidade através de:
+🗄️ **Sistema de Esconderijo**
 
-Rangidos no ambiente
-Passos distantes
-Respiração
-Sons sutis que indicam proximidade
+Para evitar ser capturado durante as perseguições, o jogador pode utilizar esconderijos espalhados pelo cenário, como:
 
-Não há jumpscares tradicionais.
+Armários
+Lixeiras
 
-O medo vem da incerteza.
+Ao se esconder, o jogador pode aguardar até que a criatura se afaste para continuar a exploração.
+
+🔑 **Sistema de Coleta**
+
+A progressão depende da busca por duas chaves escondidas no ambiente.
+
+Somente após coletar ambas as chaves a saída será liberada, permitindo a conclusão da partida.
+
+👻 **Terror Psicológico**
+
+Silêncio aposta na tensão constante e na sensação de perseguição.
+
+O jogador nunca está completamente seguro e precisa decidir cuidadosamente quando explorar, fugir ou se esconder.
+
+O medo é construído pela presença da criatura e pela possibilidade constante de ser encontrado.
 
 🎨 **Experiência do Jogador**
 
-Desenvolvido para ser jogado com fones de ouvido, Silêncio cria uma experiência sensorial intensa e focada na percepção auditiva.
+O jogo incentiva a exploração e a tomada de decisões rápidas.
 
-O jogador é constantemente levado a:
+Durante a partida, o jogador deve:
 
-Pensar antes de agir
-Controlar seus movimentos
-Interpretar sons do ambiente
+Procurar as chaves espalhadas pelo cenário.
+Evitar ser capturado pela criatura.
+Utilizar os esconderijos nos momentos certos.
+Planejar rotas de fuga durante as perseguições.
+
+Cada escolha pode aproximar o jogador da vitória ou levá-lo ao fracasso.
 
 🌟 **Diferenciais**
-
-Terror psicológico sem jumpscares
-Mecânica central baseada em som
-Alta imersão sensorial
-Experiência ideal para eventos e demonstrações
-Simples de entender, desafiador de dominar
-
-🎧 **Experiência em Evento**
-
-O jogo é ideal para apresentações em stand, utilizando fones de ouvido para maximizar a imersão.
-
-O contraste entre silêncio e som cria uma experiência marcante e memorável para o público.
+Ambientação em uma livraria.
+Terror psicológico baseado em perseguição.
+Dois personagens com níveis de ruído diferentes.
+Sistema de esconderijo em armários e lixeiras.
+Objetivo simples e fácil de compreender.
+Partidas rápidas e dinâmicas.
 
 🧩 **Escopo do Protótipo**
 
 O protótipo inclui:
 
-1 ambiente explorável
-Sistema de ruído funcional
-Feedback sonoro dinâmico
-Evento de perseguição baseado em ruído
-Objetivo simples de fuga
+Ambiente de livraria explorável.
+Dois personagens jogáveis.
+Sistema de perseguição da criatura.
+Armários e lixeiras como esconderijos.
+Duas chaves coletáveis.
+Porta de saída bloqueada até a coleta das chaves.
+Condição de vitória por fuga.
+⏱️ Tempo Médio de Jogo
 
-⏱️ **Tempo médio: 3 a 5 minutos por jogador**
+3 a 5 minutos por partida
 
-🛠️ **Tecnologias**
+🛠️ **Tecnologias Utilizadas**
 Godot Engine
 GDScript
+
+Slogan: "O silêncio pode salvar sua vida. Mas nem sempre será suficiente."
