@@ -13,6 +13,7 @@ A sobrevivência depende da exploração, da estratégia e do uso correto dos es
 Encontrar as duas chaves escondidas pela livraria para desbloquear a saída e escapar antes de ser capturado pela criatura.
 
 ⚙️ **Mecânicas Principais**
+
 👣 **Sistema de Perseguição**
 
 A criatura circula pela livraria em busca do jogador.
