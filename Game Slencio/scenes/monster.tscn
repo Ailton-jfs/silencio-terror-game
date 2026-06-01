@@ -1,0 +1,98 @@
+[gd_scene format=3 uid="uid://4if6o7vtu3td"]
+
+[ext_resource type="Script" uid="uid://d3he0anh0gyo8" path="res://scripts/monster.gd" id="1_c47ug"]
+[ext_resource type="Texture2D" uid="uid://cmppfnv7ruus1" path="res://sprites/Character/monster/mostro-idle.png" id="2_jlss8"]
+[ext_resource type="Texture2D" uid="uid://2r8rqeykkfr0" path="res://sprites/Character/monster/run-monster.png" id="3_gp4s5"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_8ngjm"]
+atlas = ExtResource("2_jlss8")
+region = Rect2(224, 0, 112, 154)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_uhkt7"]
+atlas = ExtResource("2_jlss8")
+region = Rect2(336, 0, 112, 154)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_3r7jw"]
+atlas = ExtResource("2_jlss8")
+region = Rect2(448, 0, 112, 154)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rux75"]
+atlas = ExtResource("3_gp4s5")
+region = Rect2(0, 0, 133, 151)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_481d3"]
+atlas = ExtResource("3_gp4s5")
+region = Rect2(133, 0, 133, 151)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_iyrhi"]
+atlas = ExtResource("3_gp4s5")
+region = Rect2(266, 0, 133, 151)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_o46hk"]
+atlas = ExtResource("3_gp4s5")
+region = Rect2(399, 0, 133, 151)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_s53e4"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_8ngjm")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_uhkt7")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_3r7jw")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rux75")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_481d3")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_iyrhi")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_o46hk")
+}],
+"loop": true,
+"name": &"run_monster",
+"speed": 6.0
+}]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_jlss8"]
+radius = 37.0
+height = 122.0
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_c47ug"]
+radius = 37.0
+height = 120.0
+
+[node name="Monster" type="CharacterBody2D" unique_id=2030477767]
+position = Vector2(3, -3)
+script = ExtResource("1_c47ug")
+metadata/_edit_group_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=229436341]
+position = Vector2(1, 0)
+sprite_frames = SubResource("SpriteFrames_s53e4")
+animation = &"run_monster"
+autoplay = "idle"
+
+[node name="Area2D" type="Area2D" parent="." unique_id=926509565]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=1903675380]
+shape = SubResource("CapsuleShape2D_jlss8")
+debug_color = Color(0.48057556, 0.5860997, 0.1178427, 0.41960785)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=846465365]
+position = Vector2(-1, 1)
+shape = SubResource("CapsuleShape2D_c47ug")
+
+[connection signal="area_entered" from="Area2D" to="." method="_on_area_2d_area_entered"]

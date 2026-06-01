@@ -1,0 +1,28 @@
+[gd_scene format=3 uid="uid://dx5rxyncm6r5u"]
+
+[ext_resource type="Script" uid="uid://37tqb11484uj" path="res://scripts/table.gd" id="1_0sl77"]
+[ext_resource type="Texture2D" uid="uid://b40j58hpnp6q3" path="res://sprites/Map/Tileset_Large.png" id="1_ik73a"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0sl77"]
+size = Vector2(220, 108)
+
+[node name="Table" type="Node2D" unique_id=107513977]
+
+[node name="Area2D" type="Area2D" parent="." unique_id=330556921]
+script = ExtResource("1_0sl77")
+
+[node name="Sprite2D" type="Sprite2D" parent="Area2D" unique_id=1151225126]
+modulate = Color(0.3953672, 0.39536718, 0.39536715, 1)
+texture_filter = 1
+position = Vector2(70.00003, 23.500015)
+scale = Vector2(4.744186, 4.894737)
+texture = ExtResource("1_ik73a")
+region_enabled = true
+region_rect = Rect2(209.81747, 49.64914, 43.87677, 19.376694)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D" unique_id=295969185]
+position = Vector2(72, 20)
+shape = SubResource("RectangleShape2D_0sl77")
+
+[connection signal="body_entered" from="Area2D" to="Area2D" method="_on_body_entered"]
+[connection signal="body_exited" from="Area2D" to="Area2D" method="_on_body_exited"]

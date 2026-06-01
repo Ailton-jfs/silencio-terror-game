@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://71e425odr2y6"]
+
+[ext_resource type="Script" uid="uid://cfln8rb17kj2y" path="res://scripts/key.gd" id="1_key"]
+[ext_resource type="Texture2D" uid="uid://s0q3g57xfy7x" path="res://sprites/Key/key-removebg-preview.png" id="2_ymjim"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ynswb"]
+size = Vector2(20, 80)
+
+[node name="Key1" type="Area2D" unique_id=1756363689]
+script = ExtResource("1_key")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1903819873]
+position = Vector2(2.9999962, 5)
+scale = Vector2(0.17326732, 0.18141593)
+texture = ExtResource("2_ymjim")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=430183317]
+position = Vector2(3, 33)
+shape = SubResource("RectangleShape2D_ynswb")
