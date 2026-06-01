@@ -102,4 +102,46 @@ Godot Engine
 
 GDScript
 
+▶️ **Como Jogar**
+
+Existem duas formas de executar o jogo:
+
+Opção 1 – Projeto Godot
+Baixe a pasta Game Silêncio.
+Abra a Godot Engine.
+Clique em Importar Projeto.
+Selecione a pasta do jogo.
+Execute o projeto.
+
+Opção 2 – Versão Publicada
+
+O jogo também está disponível para download através do link:
+
+https://ailtonjfs.itch.io/silencio-terror
+
+🎮 **Controles**
+
+Jogador 1
+W, A, S, D – Movimentação
+Shift – Correr
+E – Entrar ou sair de esconderijos
+
+Jogador 2
+↑ ↓ ← → (Setas do teclado) – Movimentação
+Shift – Correr
+E – Entrar ou sair de esconderijos
+
+🚀 **Como Vencer**
+
+Escolha um dos personagens disponíveis.
+Explore a livraria em busca das duas chaves.
+Evite ser capturado pela criatura.
+Utilize armários e lixeiras para se esconder quando necessário.
+Após coletar as duas chaves, a saída será liberada.
+Encontre a porta de saída e escape para concluir a partida.
+
+🎯 **Objetivo**
+
+O objetivo do jogo é encontrar as duas chaves espalhadas pela livraria e escapar pela saída antes de ser capturado pela criatura que patrulha o local. Cada personagem possui características diferentes, tornando a experiência mais estratégica e desafiadora.
+
 **Slogan:** "O silêncio pode salvar sua vida. Mas nem sempre será suficiente."
